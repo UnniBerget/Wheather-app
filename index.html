@@ -16,27 +16,36 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>New York</h1>
-        <ul>
-          <li>Onsdag kl. 15:00</li>
-          <li>For det meste skyet</li>
-        </ul>
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Skyet"
-            />
-            6 grader C I F
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1>New York</h1>
+            <ul>
+              <li>Onsdag kl. 15:00</li>
+              <li>For det meste skyet</li>
+            </ul>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <ul>
-                <li>Nedbør: 2 %</li>
-                <li>Luftfuktighet: 3 %</li>
-                <li>Vind: 40</li>
-              </ul>
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Skyet"
+                  class="float-left"
+                />
+                <div class="float-left"></div>
+                <strong>6</strong>
+                <span class="units">ºC I <a href="#">ºF </a></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Nedbør: 2 %</li>
+                  <li>Luftfuktighet: 3 %</li>
+                  <li>Vind: 40</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
