@@ -1,4 +1,12 @@
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
 h1 {
-  color: yellow;
-  text-align: center;
+  color: #202124;
+  font-size: 40px;
+  line-height: 26px;
 }
